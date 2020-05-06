@@ -97,3 +97,16 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+
+## Plugins citados no video:
+
+A partir de 40m
+
+gatsby-remark-images -> imagens reponsivas dentro do markdown <br/>
+netlify cms -> painel adminsitrativo para criar os posts quando upar no netlify<br/>
+ -> <br/>
+ -> <br/>
+ -> <br/>
+ -> <br/>
+ -> <br/>
