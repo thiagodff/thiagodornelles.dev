@@ -4,25 +4,25 @@ import React from "react"
 
 import { Container, Wrapper, Logo, Menu, Icons } from './styles';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, title }) => (
   <Container>
     <Wrapper>
 
       <div>
         <Logo>
-          <Link>Thiago</Link>
+          <Link>{ siteTitle }</Link>
         </Logo>
         
-        <Menu>
-          <Link>HOME</Link>
-          <Link>BLOG</Link>
-          <Link>SOBRE</Link>
-          <Link>PORTFÓLIO</Link>
+        <Menu currentSection={title}>
+          <Link id="home">HOME</Link>
+          <Link id="blog">BLOG</Link>
+          <Link id="about">SOBRE</Link>
+          <Link id="portfolio">PORTFÓLIO</Link>
         </Menu>
       </div>
 
       <Icons>
-          icons
+        icons
       </Icons>
 
     </Wrapper>

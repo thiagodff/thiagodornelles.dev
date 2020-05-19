@@ -7,7 +7,9 @@ export const Container = styled.header`
 
 export const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -47,10 +49,40 @@ export const Menu = styled.nav`
     margin-right: 20px;
     text-decoration: none;
 
-    &:hover {
-      color: #444444;
+    &#home {
+      color: ${({ currentSection }) => currentSection === 'home' ? '#444444' : '#999999'};
+
+      &:hover {
+        color: #444444;
+      }
+    }
+    
+    &#blog {
+      color: ${({ currentSection }) => currentSection === 'blog' ? '#444444' : '#999999'};
+
+      &:hover {
+        color: #444444;
+      }
+    }
+  
+    &#about {
+      color: ${({ currentSection }) => currentSection === 'about' ? '#444444' : '#999999'};
+
+      &:hover {
+        color: #444444;
+      }
+    }
+  
+    &#portfolio {
+      color: ${({ currentSection }) => currentSection === 'portfolio' ? '#444444' : '#999999'};
+
+      &:hover {
+        color: #444444;
+      }
     }
   }
+
+
 `;
 
 export const Icons = styled.div`
