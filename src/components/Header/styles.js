@@ -89,4 +89,29 @@ export const Icons = styled.div`
   font-size: 16px;
   font-weight: bold;
   color: #999999;
+
+  a {
+    height: 19px;
+    text-decoration: none;
+    margin-right: 15px;
+
+    color: #999999;
+
+    &:hover {
+      color: #444444;
+    }
+  }
+
+  button {
+    background: none;
+    border: none;
+    height: 19px;
+    margin-left: 10px;
+
+    color: #999999;
+
+    &:hover {
+      color: #444444;
+    }
+  }
 `;
