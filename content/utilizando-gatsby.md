@@ -1,6 +1,6 @@
 ---
 title: "Utilizando Gatsby"
-path: "/utilizando-gatsby"
+path: "/blog/utilizando-gatsby"
 date: 2020-05-06T03:00:00.000Z
 ---
 
