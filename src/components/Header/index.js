@@ -1,9 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { FaMoon, FaGithub, FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaMoon, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { IoMdSunny, IoLogoYoutube } from "react-icons/io";
-import { AiOutlineInstagram } from "react-icons/ai";
 
 
 import { Container, Wrapper, Logo, Menu, Icons } from './styles';
@@ -18,10 +17,10 @@ const Header = ({ siteTitle, title, theme = 'dark' }) => (
         </Logo>
         
         <Menu currentSection={title}>
-          <Link id="home">HOME</Link>
-          <Link id="blog">BLOG</Link>
-          <Link id="about">SOBRE</Link>
-          <Link id="portfolio">PORTFÓLIO</Link>
+          <Link id="home" to="/">HOME</Link>
+          <Link id="blog" to="/blog">BLOG</Link>
+          <Link id="about" to="/about">SOBRE</Link>
+          <Link id="portfolio" to="/portfolio">PORTFÓLIO</Link>
         </Menu>
       </div>
 
