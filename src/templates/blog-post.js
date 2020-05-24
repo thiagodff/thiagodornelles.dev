@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
       
       <div dangerouslySetInnerHTML={{ __html: html }} />
       
-      <Link to="/">Go to home</Link>
+      <Link to="/blog">Return to blog page</Link>
     </Layout>
   )
 }
@@ -32,7 +32,6 @@ export const pageQuery = graphql`
       }
     }
   }
-  
 `;
 
 export default IndexPage
