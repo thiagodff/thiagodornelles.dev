@@ -8,9 +8,10 @@
   Gatsby's default starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d844ac3-34b2-4c86-a950-2ff1675a8d0f/deploy-status)](https://app.netlify.com/sites/thiagodornelles/deploys)
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+
+Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 ## 🚀 Quick start
 
@@ -30,23 +31,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 
 ## Plugins citados no video:
 
-A partir de 40m
-
 gatsby-remark-images -> imagens reponsivas dentro do markdown <br/>
 netlify cms -> painel adminsitrativo para criar os posts quando upar no netlify<br/>
- -> <br/>
- -> <br/>
- -> <br/>
- -> <br/>
- -> <br/>
